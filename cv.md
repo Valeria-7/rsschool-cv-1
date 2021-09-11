@@ -17,3 +17,16 @@ I am a third-year student of BSUIR. I am interested in **Web Development** and I
 - JavaScript Basics
 - Figma
 - Git/GitHub
+
+#### Code Example
+
+```javascript
+function getMiddle(s) {
+  if (s.length == 1) return s;
+  if (s.length % 2 == 0) {
+    return s[s.length / 2 - 1] + s[s.length / 2];
+  } else {
+    return s[(s.length - 1) / 2];
+  }
+}
+```
