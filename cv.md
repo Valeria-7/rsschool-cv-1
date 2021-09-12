@@ -48,3 +48,9 @@ function getMiddle(s) {
   - [willberries](https://github.com/Valeria-7/willberries)
   - [space x](https://github.com/Valeria-7/spacex)
   - [BMW](https://github.com/Valeria-7/BMW)
+
+#### Languages
+
+- Russian: native
+- English: A2 (B1 in process...)
+- Spanish: B2
