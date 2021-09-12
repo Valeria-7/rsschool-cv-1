@@ -30,3 +30,21 @@ function getMiddle(s) {
   }
 }
 ```
+
+#### Education
+
+- University: Belarusian State University of Informatics and Radioelectronics
+
+  - Faculty of Engineering and Economics
+
+- Courses:
+
+  - HTML/CSS interactive course on [GeekBrains](https://gb.ru/)
+  - Some video courses on YouTube
+  - RS Schools Course «JavaScript/Front-end. Stage 1» (in process...)
+
+- Training projects ([Glo Academy](https://glo.academy/))
+
+  - [willberries](https://github.com/Valeria-7/willberries)
+  - [space x](https://github.com/Valeria-7/spacex)
+  - [BMW](https://github.com/Valeria-7/BMW)
