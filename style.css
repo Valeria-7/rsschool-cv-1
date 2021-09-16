@@ -243,3 +243,103 @@ body {
 .rsschool-icon:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 768px) {
+  .photo {
+    width: 250px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .main-column {
+    max-width: 768px;
+  }
+
+  .aside {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo {
+    width: 150px;
+  }
+
+  .header-info {
+    margin-left: 10px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .header-description {
+    font-size: 18px;
+  }
+
+  .projects-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .code-example {
+    margin-left: -30px;
+  }
+
+  .aside-title,
+  .column-title {
+    font-size: 20px;
+  }
+
+  @media (max-width: 375px) {
+    .photo {
+      width: 120px;
+    }
+
+    .name {
+      font-size: 25px;
+    }
+
+    .header-description {
+      font-size: 18px;
+    }
+
+    .code-example {
+      font-size: 12px;
+    }
+
+    .contacts-list {
+      margin-left: 30px;
+    }
+
+    .skills-list,
+    .languages-list {
+      margin-left: 45px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .name {
+      font-size: 23px;
+    }
+
+    .header-description {
+      font-size: 14px;
+    }
+
+    .code-example {
+      font-size: 11px;
+    }
+  }
+}
