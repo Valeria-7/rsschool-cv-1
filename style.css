@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  color: #363636;
+  background-color: #17171a;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 55px;
+}
+
+.name {
+  font-size: 67px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+
+.header-description {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.aside {
+  color: #fff;
+  background-color: #343945;
+}
+
+.main {
+  display: flex;
+}
+
+.aside {
+  max-width: 360px;
+  width: 100%;
+}
+
+.aside-title {
+  padding-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  background-color: #424753;
+  border-left: #f2c100 solid 30px;
+}
+
+.contacts-list {
+  margin-left: 60px;
+  list-style-type: none;
+}
+
+.contact {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.contacts-github {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  color: #f2c100;
+}
+
+.contacts-github:hover {
+  color: #806600;
+}
+
+.skills-list {
+  margin-left: 75px;
+}
+
+.languages-list {
+  margin-left: 75px;
+  margin-bottom: 50px;
+}
+
+.skill {
+  margin-bottom: 7px;
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.language {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.main-column {
+  max-width: 640px;
+}
+.column-title {
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ebebeb;
+  border-left: #f2c100 solid 20px;
+}
+
+.about-me__title {
+  margin-top: 0;
+}
+
+.about-me__text {
+  margin: 0 40px;
+}
+
+.education-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bsuir {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.university {
+  margin: 0 40px;
+}
+
+.courses-title {
+  margin-top: 25px;
+}
+
+.courses {
+  margin: 0 40px;
+  margin-bottom: 25px;
+}
+
+.courses-list {
+  margin-left: 15px;
+}
+
+.geekbrains {
+  text-decoration: none;
+  color: #f2c100;
+}
+
+.geekbrains:hover {
+  color: #806600;
+}
+
+.projects {
+  margin: 0 40px;
+}
+
+.glo {
+  text-decoration: none;
+  color: #f2c100;
+}
+
+.glo:hover {
+  color: #806600;
+}
+
+.projects-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 150px;
+  background-color: #ebebeb;
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.willberries {
+  background-image: url(img/willberies1.jpg);
+}
+
+.space {
+  background-image: url(img/spacex1.jpg);
+}
+
+.bmw {
+  background-image: url(img/bmw1.jpg);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 100px;
+  height: 100%;
+  background-color: #222730;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.github-icon {
+  margin-right: 10px;
+}
+
+.github-link:hover {
+  color: #f2c100;
+}
+
+.year {
+  color: #fff;
+}
+
+.rsschool-icon:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .photo {
+    width: 250px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .main-column {
+    max-width: 768px;
+  }
+
+  .aside {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo {
+    width: 150px;
+  }
+
+  .header-info {
+    margin-left: 10px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .header-description {
+    font-size: 18px;
+  }
+
+  .projects-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .code-example {
+    margin-left: -30px;
+  }
+
+  .aside-title,
+  .column-title {
+    font-size: 20px;
+  }
+
+  @media (max-width: 375px) {
+    .photo {
+      width: 120px;
+    }
+
+    .name {
+      font-size: 25px;
+    }
+
+    .header-description {
+      font-size: 18px;
+    }
+
+    .code-example {
+      font-size: 12px;
+    }
+
+    .contacts-list {
+      margin-left: 30px;
+    }
+
+    .skills-list,
+    .languages-list {
+      margin-left: 45px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .name {
+      font-size: 23px;
+    }
+
+    .header-description {
+      font-size: 14px;
+    }
+
+    .code-example {
+      font-size: 11px;
+    }
+  }
+}
