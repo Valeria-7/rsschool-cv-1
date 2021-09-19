@@ -294,7 +294,7 @@ body {
   }
 
   .code-example {
-    margin-left: -30px;
+    margin-left: -40px;
   }
 
   .aside-title,
@@ -312,11 +312,11 @@ body {
     }
 
     .header-description {
-      font-size: 18px;
+      font-size: 15px;
     }
 
     .code-example {
-      font-size: 12px;
+      font-size: 11px;
     }
 
     .contacts-list {
@@ -339,7 +339,14 @@ body {
     }
 
     .code-example {
-      font-size: 11px;
+      font-size: 10px;
+    }
+
+    .language {
+      font-size: 17px;
+    }
+    .rsschool-icon {
+      width: 80px;
     }
   }
 }
