@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Valeryia Yauseyenkava</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -17,24 +18,24 @@
       <img src="img/photo1.jpg" alt="my photo" class="photo">
       <div class="header-info">
         <h1 class="name">Valeryia Yauseyenkava</h1>
-        <p class="header-description">Junior Front-end Developer</p>
+        <h2 class="header-description">Junior Front-end Developer</h2>
       </div>
     </header>
     <main class="main">
       <aside class="aside">
         <section class="contacts">
-          <h3 class="aside-title">Contacts</h3>
+          <h4 class="aside-title">Contacts</h4>
           <ul class="contacts-list">
             <li class="contact">Phone: <br>+375336327631</li>
             <li class="contact">Email: <br>evseenkovavaleria2001@mail.ru</li>
             <li class="contact">
-              <a href="https://github.com/Valeria-7" class="contacts-github">GitHub: Valeria-7</a>
+              <a href="https://github.com/Valeria-7" class="contacts-github" target="_blank">GitHub: Valeria-7</a>
             </li>
           </ul> 
 
         </section>
         <section class="skills">
-          <h3 class="aside-title">Skills</h3>
+          <h4 class="aside-title">Skills</h4>
           <ul class="skills-list">
             <li class="skill">HTML</li>
             <li class="skill">CSS</li>
@@ -44,7 +45,7 @@
           </ul>
         </section>
         <section class="languages">
-          <h3 class="aside-title">Languages</h3>
+          <h4 class="aside-title">Languages</h4>
           <ul class="languages-list">
             <li class="language">Russian: native</li>
             <li class="language">English: A2 (B1 in process…)</li>
@@ -62,40 +63,40 @@
           <h3 class="column-title">Education</h3>
 
           <div class="university">
-            <h4 class="university-title education-title">University:</h4>
+            <h5 class="university-title education-title">University:</h5>
             <p class="bsuir">Belarusian State University of Informatics and Radioelectronics</p>
             <p class="faculty">Faculty of Engineering and Economics</p>
           </div>
           <div class="courses">
-            <h4 class="courses-title education-title">Courses</h4>
+            <h5 class="courses-title education-title">Courses</h5>
             <ul class="courses-list">
               <li class="course">HTML/CSS interactive course on 
-                <a href="https://gb.ru/" class="geekbrains">GeekBrains</a>
+                <a href="https://gb.ru/" class="geekbrains" target="_blank">GeekBrains</a>
               </li>
               <li class="course">Some video courses on YouTube</li>
               <li class="course">RS Schools Course «JavaScript/Front-end. Stage 1» (in process…)</li>
             </ul>
           </div>
           <div class="projects">
-            <h4 class="projects-title education-title">Training projects
-              <a href="https://glo.academy/" class="glo">(Glo Academy)</a>
-            </h4>
+            <h5 class="projects-title education-title">Training projects
+              <a href="https://glo.academy/" class="glo" target="_blank">(Glo Academy)</a>
+            </h5>
             <div class="projects-blocks">
-              <a href="#" class="project-link">
+              <a href="https://valeria-7.github.io/willberries/" class="project-link" target="_blank">
                 <div class="project willberries"></div>
               </a>
-              <a href="#" class="project-link">
+              <a href="https://valeria-7.github.io/spacex/" class="project-link" target="_blank">
                 <div class="project space"></div>
               </a>
-              <a href="#" class="project-link">
+              <a href="https://valeria-7.github.io/BMW/" class="project-link" target="_blank">
                 <div class="project bmw"></div>
               </a>
             </div>
           </div>
         </section>
-        <section class="code-example">
+        <section class="code">
           <h3 class="code-title column-title">Code Example</h3>
-          <pre class="code-example">
+          <pre><code class="javascript code-example">
             function getMiddle(s) {
               if (s.length == 1) return s;
               if (s.length % 2 == 0) {
@@ -104,20 +105,44 @@
                 return s[(s.length - 1) / 2];
               }
             }
-          </pre>
+          </code></pre>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <a href="https://github.com/Valeria-7" class="github-link">
+      <a href="https://github.com/Valeria-7" class="github-link" target="_blank">
         <img src="img/github.svg" alt="github icon" class="github-icon">
         <p class="my-github">My GitHub</p>
       </a>
       <p class="year">&copy; 2021</p>
-      <a href="https://rs.school/js/" class="rsschool-link">
+      <a href="https://rs.school/js/" class="rsschool-link" target="_blank">
       <img width="100" src="img/rs_school-icon.png" alt="rs shool icon" class="rsschool-icon">
       </a>
     </footer>
   </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+    console.log(`
+    Самооценка: 135 / 150
+    1. вёрстка валидная (10/10)
+    2. вёрстка семантическая (20/20)
+    В коде страницы присутствуют семантические теги header, footer, main, section, aside. 
+    Используются заголовки h1, h2, h3, h4, h5.
+    3. для оформления СV используются css-стили (10/10)
+    4. контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет тянется во всю ширину страницы (10/10)
+    5. вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется (10/10)
+    6. отсутствует меню (0/10)
+    7. на странице СV присутствует изображение - фото автора CV, пропорции изображения не искажены, у изображения есть атрибут alt (10/10)
+    8. контакты для связи и перечень навыков оформлены в виде списка ul > li (10/10)
+    9. CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского (10/10)
+    10. CV содержит пример кода с подсветкой. Для подсветки кода используется highlight.js (10/10)
+    11. CV содержит изображения-ссылки на выполненные проекты. При клике по изображению страница проекта открывается в новой вкладке. Отсутствует описание проекта (5/10)
+    12. CV выполнено на английском языке (10/10)
+    13. выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка (10/10)
+    14. отсутствует видеорезюме (0/10)
+    15. дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (10/10)
+    `)
+  </script>
 </body>
 </html>
