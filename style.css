@@ -17,6 +17,11 @@ body {
   background-color: #fff;
 }
 
+.code {
+  /* временно */
+  display: none;
+}
+
 .header {
   display: flex;
 }
@@ -40,17 +45,14 @@ body {
 }
 
 .aside {
+  max-width: 360px;
+  width: 100%;
   color: #fff;
   background-color: #343945;
 }
 
 .main {
   display: flex;
-}
-
-.aside {
-  max-width: 360px;
-  width: 100%;
 }
 
 .aside-title {
@@ -75,15 +77,23 @@ body {
   line-height: 1.5;
 }
 
+.contact-links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-links:hover {
+  color: #f2c100;
+}
+
+.contact-links:active {
+  color: #806600;
+}
+
 .contacts-github {
   text-decoration: none;
   color: #fff;
   font-size: 19px;
-  color: #f2c100;
-}
-
-.contacts-github:hover {
-  color: #806600;
 }
 
 .skills-list {
@@ -182,7 +192,13 @@ body {
 
 .projects-blocks {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 25px;
+}
+
+.project-link {
+  text-decoration: none;
 }
 
 .project {
@@ -190,13 +206,29 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 200px;
   background-color: #ebebeb;
+  transition: 0.5s;
+  color: transparent;
 }
 
 .project:hover {
+  background: #343945;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 23px;
 }
 
 .willberries {
@@ -209,6 +241,10 @@ body {
 
 .bmw {
   background-image: url(img/bmw1.jpg);
+}
+
+.cinema {
+  background-image: url(img/cinema.jpg);
 }
 
 .footer {
@@ -263,6 +299,7 @@ body {
   }
 
   .aside {
+    margin-top: 25px;
     max-width: 768px;
   }
 }
