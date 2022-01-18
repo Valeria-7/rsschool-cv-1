@@ -181,15 +181,6 @@ body {
   margin: 0 40px;
 }
 
-.glo {
-  text-decoration: none;
-  color: #f2c100;
-}
-
-.glo:hover {
-  color: #806600;
-}
-
 .projects-blocks {
   display: flex;
   flex-wrap: wrap;
@@ -211,6 +202,7 @@ body {
   background-color: #ebebeb;
   transition: 0.5s;
   color: transparent;
+  background-size: cover;
 }
 
 .project:hover {
@@ -231,17 +223,25 @@ body {
   font-size: 23px;
 }
 
+.indexfood {
+  background-image: url(img/indexfood.jpg);
+}
+
+.checkout {
+  background-image: url(img/checkout.jpg);
+}
+
 .willberries {
   background-image: url(img/willberies1.jpg);
 }
-
+/*
 .space {
   background-image: url(img/spacex1.jpg);
 }
 
 .bmw {
   background-image: url(img/bmw1.jpg);
-}
+}*/
 
 .cinema {
   background-image: url(img/cinema.jpg);
